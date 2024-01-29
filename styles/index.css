@@ -11,10 +11,9 @@ body {
     display: flex;
     border: 10px solid red;
     justify-content: center;
-    align-items: center;
-   
+    flex-direction: column;
 }
-.img_blocks {
+.container  > .img_blocks {
     display: flex;
     flex-direction: row;
     justify-content: center;
