@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: calc(100vw - 20px);
+    height: calc(100vw - 20px);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid red;
+
+}
+
+.container > .img_blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.img_blocks img {
+    margin: 5px;
+    height: 120px;
+    width: auto;
+}
